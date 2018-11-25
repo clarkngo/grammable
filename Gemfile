@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+# form submission
+gem 'simple_form'
 # bootstrap
 gem 'bootstrap', '4.0.0.alpha6'
 # bootstrap dependency
