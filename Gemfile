@@ -3,10 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+# aws image uploader
+gem 'fog-aws'
+
+# image uploader
+gem 'carrierwave', '~> 1.2.3'
 # user authentication and management
-gem 'devise'
+gem 'devise', '~> 4.5.0'
 # form submission
-gem 'simple_form'
+gem 'simple_form', '~> 4.1.0'
 # bootstrap
 gem 'bootstrap', '4.0.0.alpha6'
 # bootstrap dependency
