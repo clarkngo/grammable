@@ -3,9 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+# credential manager
+gem 'figaro'
 # aws image uploader
 gem 'fog-aws'
-
 # image uploader
 gem 'carrierwave', '~> 1.2.3'
 # user authentication and management
