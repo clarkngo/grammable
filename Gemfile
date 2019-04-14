@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.5.3'
 
+gem "actionview", ">= 5.2.2.1"
+gem "railties", ">= 5.2.2.1"
 # credential manager
 gem 'figaro'
 # aws image uploader
@@ -10,14 +12,14 @@ gem 'fog-aws'
 # image uploader
 gem 'carrierwave', '~> 1.2.3'
 # user authentication and management
-gem 'devise', '~> 4.5.0'
+gem 'devise', '>= 4.6.0'
 # form submission
 gem 'simple_form', '~> 4.1.0'
 # bootstrap
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'bootstrap', '~> 4.0'
 # bootstrap dependency
 gem 'jquery-rails'
-gem 'popper_js', '~> 1.11.1'
+gem 'popper_js', '< 2', '>= 1.12.9'
 gem 'jquery-ui-rails'
 gem "font-awesome-rails"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
