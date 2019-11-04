@@ -14,7 +14,7 @@ gem 'carrierwave', '~> 1.2.3'
 # user authentication and management
 gem 'devise', '>= 4.6.0'
 # form submission
-gem 'simple_form', '~> 4.1.0'
+gem 'simple_form', '~> 5.0.0'
 # bootstrap
 gem 'bootstrap', '~> 4.0'
 # bootstrap dependency
