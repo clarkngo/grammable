@@ -4,6 +4,10 @@ Instagram clone! Built using test-driven development (TDD)
 
 This app powers grammable located [http://grammable-clark-ngo.herokuapp.com] (Heroku Project URL)
 
+## Schema
+![Schema](schema.png "Schema")
+Made with [dbdiagram.io](https://dbdiagram.io/home)
+
 ## Getting Started
 
 ## Software requirements
