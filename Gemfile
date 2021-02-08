@@ -10,7 +10,7 @@ gem 'figaro'
 # aws image uploader
 gem 'fog-aws'
 # image uploader
-gem 'carrierwave', '~> 1.2.3'
+gem 'carrierwave', '~> 1.3.2'
 # user authentication and management
 gem 'devise', '>= 4.6.0'
 # form submission
